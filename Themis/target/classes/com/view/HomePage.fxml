@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane fx:id="layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@HomePage.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+   <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+      <Group StackPane.alignment="CENTER">
+      <children>
+      <JFXComboBox fx:id="properties" focusColor="#00c853" layoutX="62.0" layoutY="166.0" prefHeight="27.0" prefWidth="236.0" promptText="Select Property" visibleRowCount="4" />
+      <JFXTextField fx:id="valueProperty" focusColor="#00c853" layoutX="298.0" layoutY="166.0" prefHeight="27.0" prefWidth="228.0">
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </JFXTextField>
+      <JFXButton fx:id="searchBtn" layoutX="237.0" layoutY="268.0" onAction="#onSearchButton" prefHeight="41.0" prefWidth="122.0" ripplerFill="#00bf9a" text="Themis Search" textFill="WHITE">
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </JFXButton>
+      </children>
+      </Group>
+      </children>
+      </StackPane>
+      <Label fx:id="validationLabel" layoutX="300.0" layoutY="200.0" prefHeight="34.0" prefWidth="228.0" text="  " textFill="#8d0606" />
+   </children>
+</AnchorPane>

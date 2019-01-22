@@ -1,0 +1,17 @@
+
+.list-cell:hover{
+	-fx-background-color: #00BF9A;
+}
+
+.list-cell{
+	-fx-background-insets: 0.0;
+}
+
+
+
+.jfx-list-view{
+	-fx-background-insets: 0;
+	-fx-cell-vertical-margin: 10.0;
+	
+	
+}
